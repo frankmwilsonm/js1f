@@ -1,5 +1,5 @@
 body {
- background-image:linear-gradient(rgba(1, 43, 115, .19),rgba(7, 71, 142, .12)), url(https://i.pinimg.com/originals/b8/2f/28/b82f28a7e9c8fcb3868d3d94652c107c.gif);
+ background-image:linear-gradient(rgba(1, 43, 115, .19),rgba(7, 71, 142, .12)), url(https://thumbs.gfycat.com/SphericalWindyKronosaurus-size_restricted.gif);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -49,11 +49,13 @@ ul {
   }
 
 article{
+  opacity: 85%;
+  margin-top: 2%;
   background-color: #fff;
-   padding: 20px;
-  border-radius: 10px;
-  margin-right: 25%;
-  margin-left: 25%;
+  padding: 20px;
+  border-radius: 15px;
+  margin-right: 2em;
+  margin-left: 2em;
 }
 
 
@@ -63,6 +65,8 @@ p{
 }
 
   footer {
+    opacity: 80%;
+    padding: 10px;
     background-color: #111;
     color: white;
     position: fixed;
