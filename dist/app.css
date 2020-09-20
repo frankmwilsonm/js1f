@@ -8,15 +8,23 @@ body {
   }
 
   .active {
-    background-color: #373737;
+    background-color: #285CD1;
 
   }
 
   main {
-    padding-left: 20px;
+    padding-left: 0px;
+    }
+
+  nav {
+    margin-top: -4.5em;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
     }
 
 ul {
+
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -36,6 +44,7 @@ ul {
   }
   
   li a {
+
     display: block;
     color: white;
     text-align: center;
@@ -45,12 +54,12 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    background-color: #223563;
   }
 
 article{
   opacity: 85%;
-  margin-top: 2%;
+  margin-top: 4.5em;
   background-color: #fff;
   padding: 20px;
   border-radius: 15px;
