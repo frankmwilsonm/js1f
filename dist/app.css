@@ -1,24 +1,34 @@
 body {
-    background-color: #BCBCBC;
-    margin: 0;
-    font-family: verdana;
+ background-image:linear-gradient(rgba(1, 43, 115, .19),rgba(7, 71, 142, .12)), url(https://i.pinimg.com/originals/b8/2f/28/b82f28a7e9c8fcb3868d3d94652c107c.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: verdana;
+  margin: 0px;
   }
+
   .active {
     background-color: #373737;
-    
+
   }
+
   main {
     padding-left: 20px;
     }
+
 ul {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
-    background-color: #0066FF;
+ background: #0380cec4;
+    opacity: 97%;
     position: relative;
     top: 0;
     width: 100%;
+
+    box-shadow: -1px 3px 20px 7px rgba(5, 88, 187, 0.7);
   }
   
   li {
@@ -37,6 +47,20 @@ ul {
   li a:hover {
     background-color: #111;
   }
+
+article{
+  background-color: #fff;
+   padding: 20px;
+  border-radius: 10px;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+
+p{
+  margin-right: 5%;
+  margin-left: 5%;
+}
 
   footer {
     background-color: #111;
