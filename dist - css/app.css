@@ -1,0 +1,84 @@
+body {
+ background-image:linear-gradient(rgba(1, 43, 115, .19),rgba(7, 71, 142, .12)), url(https://thumbs.gfycat.com/SphericalWindyKronosaurus-size_restricted.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: verdana;
+  margin: 0px;
+  }
+
+  .active {
+    background-color: #285CD1;
+
+  }
+
+  main {
+    padding-left: 0px;
+    }
+
+  nav {
+    margin-top: -4.5em;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    }
+
+ul {
+
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    list-style-type: none;
+    overflow: hidden;
+ background: #0380cec4;
+    opacity: 97%;
+    position: relative;
+    top: 0;
+    width: 100%;
+
+    box-shadow: -1px 3px 20px 7px rgba(5, 88, 187, 0.7);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #223563;
+  }
+
+article{
+  opacity: 85%;
+  margin-top: 4.5em;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+
+p{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+  footer {
+    opacity: 80%;
+    padding: 10px;
+    background-color: #111;
+    color: white;
+    position: fixed;
+  bottom: 0;
+  width: 100%;
+    }
